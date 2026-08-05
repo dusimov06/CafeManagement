@@ -1,0 +1,15 @@
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/bin/Debug/net8.0/CafeManagement.Application.deps.json
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/bin/Debug/net8.0/CafeManagement.Application.dll
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/bin/Debug/net8.0/CafeManagement.Application.pdb
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/bin/Debug/net8.0/CafeManagement.Domain.dll
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/bin/Debug/net8.0/CafeManagement.Domain.pdb
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeManagement.Application.csproj.AssemblyReference.cache
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeManagement.Application.AssemblyInfoInputs.cache
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeManagement.Application.AssemblyInfo.cs
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeManagement.Application.csproj.CoreCompileInputs.cache
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeMana.86133A09.Up2Date
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeManagement.Application.dll
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/refint/CafeManagement.Application.dll
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeManagement.Application.pdb
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/ref/CafeManagement.Application.dll
