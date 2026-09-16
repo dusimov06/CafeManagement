@@ -13,3 +13,4 @@
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/refint/CafeManagement.Application.dll
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeManagement.Application.pdb
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/ref/CafeManagement.Application.dll
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Application/obj/Debug/net8.0/CafeManagement.Application.sourcelink.json

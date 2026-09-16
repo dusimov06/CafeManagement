@@ -5,11 +5,6 @@ namespace CafeManagement.Infrastructure;
 
 public class AppDbContext : DbContext
 {
-
-    public AppDbContext()
-    {
-        Database.EnsureCreated();
-    }
     public DbSet<Product> Products { get; set; }
     public DbSet<Order> Orders { get; set; }
     public DbSet<OrderItem> OrderItems { get; set; }

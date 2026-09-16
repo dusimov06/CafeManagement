@@ -71,7 +71,7 @@ public class CartService : ICartService
         var order = new Order
         {
             OrderDate = DateTime.Now,
-            Items = _orderItems.ToList()
+            TotalPrice = CalculateTotal()
         };
 
         foreach (var item in _orderItems)
@@ -81,9 +81,22 @@ public class CartService : ICartService
             if (product == null)
                 throw new ArgumentException("Product not found");
             
+            if (product.Quantity < item.Quantity)
+                throw new ArgumentException("Not enough products in stock.");
+            
             product.Quantity -= item.Quantity;
             
             await _productRepository.UpdateAsync(product);
+
+            var orderItem = new OrderItem
+            {
+                ProductId = item.ProductId,
+                ProductName = product.Name,
+                Price = item.Price,
+                Quantity = item.Quantity
+            };
+            
+            order.Items.Add(orderItem);
         }
         
         await _orderRepository.AddAsync(order);
@@ -92,5 +105,15 @@ public class CartService : ICartService
 
 
         return order;
+    }
+
+    public decimal GetCartTotal()
+    {
+        return CalculateTotal();
+    }
+
+    private decimal CalculateTotal()
+    {
+        return _orderItems.Sum(i => i.Price * i.Quantity);
     }
 }

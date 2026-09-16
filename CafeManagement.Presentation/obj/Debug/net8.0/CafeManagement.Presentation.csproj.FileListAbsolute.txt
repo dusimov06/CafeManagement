@@ -15,3 +15,4 @@
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Presentation/obj/Debug/net8.0/refint/CafeManagement.Presentation.dll
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Presentation/obj/Debug/net8.0/CafeManagement.Presentation.pdb
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Presentation/obj/Debug/net8.0/ref/CafeManagement.Presentation.dll
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Presentation/obj/Debug/net8.0/CafeManagement.Presentation.sourcelink.json

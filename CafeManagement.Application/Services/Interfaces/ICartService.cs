@@ -8,4 +8,5 @@ public interface ICartService
     Task<List<OrderItem>> GetCartAsync();
     Task ClearCartAsync();
     Task<Order> CheckoutAsync();
+    decimal GetCartTotal();
 }

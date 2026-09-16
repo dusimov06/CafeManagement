@@ -9,3 +9,4 @@
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Domain/obj/Debug/net8.0/refint/CafeManagement.Domain.dll
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Domain/obj/Debug/net8.0/CafeManagement.Domain.pdb
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Domain/obj/Debug/net8.0/ref/CafeManagement.Domain.dll
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Domain/obj/Debug/net8.0/CafeManagement.Domain.sourcelink.json

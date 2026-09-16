@@ -26,14 +26,14 @@ public class AdminMenu
             Console.WriteLine("5. Add Category");
             Console.WriteLine("6. Update Category");
             Console.WriteLine("7. Delete Category");
-            Console.WriteLine("8. Exit");
+            Console.WriteLine("0. Exit");
             
             Console.Write("choose:");
             var choice = Console.ReadLine();
 
             switch (choice)
             {
-                case "Add Product":
+                case "1":
                     Console.WriteLine("===== ADD NEW PRODUCT =====");
                     string? name;
                     string? category;
@@ -140,7 +140,7 @@ public class AdminMenu
                     }
 
                     break;
-                case "Update Product":
+                case "2":
                     Console.WriteLine("===== UPDATE PRODUCT =====");
                     Console.WriteLine("Id:");
                     
@@ -256,7 +256,7 @@ public class AdminMenu
                         }
                     }
                     break;
-                case "Delete Product":
+                case "3":
                     Console.WriteLine("===== DELETING PRODUCT =====");
                     while (true)
                     {
@@ -296,7 +296,7 @@ public class AdminMenu
                         break;
                     }
                     break;
-                case "View Products":
+                case "4":
                     Console.WriteLine("===== ALL PRODUCTS =====");
                     Console.WriteLine(new string('-', 70));
                     Console.WriteLine($"{"id",-5}|{"Name",-10} | {"Category",-15} | {"Price",-10} | {"Quantity",-10} |");
@@ -316,7 +316,7 @@ public class AdminMenu
                     }
                     Console.WriteLine(new string('-', 70));
                     break;
-                case "Add Category":
+                case "5":
                     Console.WriteLine("===== ADD CATEGORY =====");
                     while (true)
                     {
@@ -361,7 +361,7 @@ public class AdminMenu
                         break;
                     }
                     break;
-                case "Update Category":
+                case "6":
                     Console.WriteLine("===== UPDATE CATEGORY =====");
                     while (true)
                     {
@@ -412,7 +412,7 @@ public class AdminMenu
                         break;
                     }
                     break;
-                case "Delete Category":
+                case "7":
                     Console.WriteLine("===== DELETING CATEGORY =====");
                     while (true)
                     {
@@ -452,7 +452,7 @@ public class AdminMenu
                         break;
                     }
                     break;
-                case "Exit":
+                case "0":
                     Console.WriteLine("===== EXIT =====");
                     Console.WriteLine("Goodbye!");
                     return;
