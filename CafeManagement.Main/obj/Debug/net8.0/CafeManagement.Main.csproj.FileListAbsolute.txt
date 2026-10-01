@@ -134,3 +134,4 @@
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Main/obj/Debug/net8.0/CafeManagement.Main.genruntimeconfig.cache
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Main/obj/Debug/net8.0/ref/CafeManagement.Main.dll
 /Users/xursandbek/warehouses/CafeProject/CafeManagement.Main/obj/Debug/net8.0/CafeManagement.Main.sourcelink.json
+/Users/xursandbek/warehouses/CafeProject/CafeManagement.Main/bin/Debug/net8.0/appsettings.json
